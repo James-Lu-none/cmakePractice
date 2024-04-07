@@ -1,0 +1,3 @@
+/home/james/projects/cProject/cmakePractice/src/test/build/CMakeFiles/test.dir
+/home/james/projects/cProject/cmakePractice/src/test/build/CMakeFiles/edit_cache.dir
+/home/james/projects/cProject/cmakePractice/src/test/build/CMakeFiles/rebuild_cache.dir
