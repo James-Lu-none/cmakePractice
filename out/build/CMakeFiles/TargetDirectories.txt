@@ -1,3 +1,7 @@
 /home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/cmakePractice.dir
 /home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/edit_cache.dir
 /home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/rebuild_cache.dir
+/home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/list_install_components.dir
+/home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/install.dir
+/home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/install/local.dir
+/home/james/projects/cProject/cmakePractice/out/build/CMakeFiles/install/strip.dir
