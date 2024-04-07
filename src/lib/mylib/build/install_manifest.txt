@@ -1,0 +1,2 @@
+/usr/local/lib/libjamesMath.a
+/usr/local/include/adder.h
