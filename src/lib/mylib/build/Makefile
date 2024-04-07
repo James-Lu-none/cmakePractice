@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/james/projects/cProject/cmakePractice/lib/mylib
+CMAKE_SOURCE_DIR = /home/james/projects/cProject/cmakePractice/src/lib/mylib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/james/projects/cProject/cmakePractice/lib/mylib/build
+CMAKE_BINARY_DIR = /home/james/projects/cProject/cmakePractice/src/lib/mylib/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/projects/cProject/cmakePractice/lib/mylib/build/CMakeFiles /home/james/projects/cProject/cmakePractice/lib/mylib/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles /home/james/projects/cProject/cmakePractice/src/lib/mylib/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/projects/cProject/cmakePractice/lib/mylib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cmakePractice
+# Target rules for targets named jamesMath
 
 # Build rule for target.
-cmakePractice: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cmakePractice
-.PHONY : cmakePractice
+jamesMath: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jamesMath
+.PHONY : jamesMath
 
 # fast build rule for target.
-cmakePractice/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakePractice.dir/build.make CMakeFiles/cmakePractice.dir/build
-.PHONY : cmakePractice/fast
+jamesMath/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jamesMath.dir/build.make CMakeFiles/jamesMath.dir/build
+.PHONY : jamesMath/fast
 
 adder.o: adder.cpp.o
 .PHONY : adder.o
 
 # target to build an object file
 adder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakePractice.dir/build.make CMakeFiles/cmakePractice.dir/adder.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jamesMath.dir/build.make CMakeFiles/jamesMath.dir/adder.cpp.o
 .PHONY : adder.cpp.o
 
 adder.i: adder.cpp.i
@@ -142,7 +142,7 @@ adder.i: adder.cpp.i
 
 # target to preprocess a source file
 adder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakePractice.dir/build.make CMakeFiles/cmakePractice.dir/adder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jamesMath.dir/build.make CMakeFiles/jamesMath.dir/adder.cpp.i
 .PHONY : adder.cpp.i
 
 adder.s: adder.cpp.s
@@ -150,7 +150,7 @@ adder.s: adder.cpp.s
 
 # target to generate assembly for a file
 adder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cmakePractice.dir/build.make CMakeFiles/cmakePractice.dir/adder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jamesMath.dir/build.make CMakeFiles/jamesMath.dir/adder.cpp.s
 .PHONY : adder.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cmakePractice"
+	@echo "... jamesMath"
 	@echo "... adder.o"
 	@echo "... adder.i"
 	@echo "... adder.s"

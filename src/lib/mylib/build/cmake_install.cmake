@@ -1,4 +1,4 @@
-# Install script for directory: /home/james/projects/cProject/cmakePractice/lib/mylib
+# Install script for directory: /home/james/projects/cProject/cmakePractice/src/lib/mylib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/james/projects/cProject/cmakePractice/lib/mylib/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

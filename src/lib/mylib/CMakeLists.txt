@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.25.1)
 
 # project name here
-project(cmakePractice)
+project(jamesMath)
 
 # start to build something
 # and specifically, it builds in debug (by default)
