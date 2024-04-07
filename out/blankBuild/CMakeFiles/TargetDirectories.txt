@@ -1,0 +1,2 @@
+/home/james/projects/cProject/cmakePractice/out/blankBuild/CMakeFiles/edit_cache.dir
+/home/james/projects/cProject/cmakePractice/out/blankBuild/CMakeFiles/rebuild_cache.dir
