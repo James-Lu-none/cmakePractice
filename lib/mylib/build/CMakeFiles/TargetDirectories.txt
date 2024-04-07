@@ -1,0 +1,3 @@
+/home/james/projects/cProject/cmakePractice/lib/mylib/build/CMakeFiles/cmakePractice.dir
+/home/james/projects/cProject/cmakePractice/lib/mylib/build/CMakeFiles/edit_cache.dir
+/home/james/projects/cProject/cmakePractice/lib/mylib/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcmakePractice.a CMakeFiles/cmakePractice.dir/adder.cpp.o
+/usr/bin/ranlib libcmakePractice.a
