@@ -13,3 +13,11 @@ add_library(${PROJECT_NAME} adder.cpp)
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER adder.h)
 install(TARGETS ${PROJECT_NAME} LIBRARY DESTINATION lib
         PUBLIC_HEADER DESTINATION include)
+# after sudo make install, it should look like this:
+# james@debian:~/projects/cProject/cmakePractice/src/lib/mylib/build$ sudo make install
+# [sudo] password for james: 
+# [100%] Built target jamesMath
+# Install the project...
+# -- Install configuration: ""
+# -- Installing: /usr/local/lib/libjamesMath.a
+# -- Installing: /usr/local/include/adder.h
