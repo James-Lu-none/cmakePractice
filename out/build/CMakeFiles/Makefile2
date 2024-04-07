@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/james/projects/cProject/cmakePractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/james/projects/cProject/cmakePractice/out/blankBuild
+CMAKE_BINARY_DIR = /home/james/projects/cProject/cmakePractice/out/build
 
 #=============================================================================
 # Directory level rules for the build root directory
