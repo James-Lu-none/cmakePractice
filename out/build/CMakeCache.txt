@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Project
+CMAKE_PROJECT_NAME:STATIC=cmakePractice
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -220,6 +220,24 @@ Project_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/james/projects/cProject/cmakePractice
+
+//Value Computed by CMake
+cmakePractice_BINARY_DIR:STATIC=/home/james/projects/cProject/cmakePractice/out/build
+
+//Value Computed by CMake
+cmakePractice_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+cmakePractice_SOURCE_DIR:STATIC=/home/james/projects/cProject/cmakePractice
+
+//Value Computed by CMake
+projectName_BINARY_DIR:STATIC=/home/james/projects/cProject/cmakePractice/out/build
+
+//Value Computed by CMake
+projectName_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+projectName_SOURCE_DIR:STATIC=/home/james/projects/cProject/cmakePractice
 
 
 ########################
