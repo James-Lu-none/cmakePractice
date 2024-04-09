@@ -3,7 +3,7 @@ project(test)
 add_executable(${PROJECT_NAME} src/main.cpp)
 
 # Download all the submodules
-find_package(GIT)
+find_package(Git)
 if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
     option(GIT_SUBMODULE "Check submodules during build" ON)
     if(GIT_SUBMODULE)
