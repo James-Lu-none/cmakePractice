@@ -1,7 +1,0 @@
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/jamesMath.dir
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/edit_cache.dir
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/rebuild_cache.dir
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/list_install_components.dir
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/install.dir
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/install/local.dir
-/home/james/projects/cProject/cmakePractice/src/lib/mylib/build/CMakeFiles/install/strip.dir
