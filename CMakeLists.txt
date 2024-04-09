@@ -9,4 +9,10 @@ add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} jamesMath)
 
 #add submodule glfw
-add_subdirectory(deps/glfw)
+add_subdirectory(../deps/glfw)
+
+#add include directories
+# target_link_directories(${PROJECT_NAME}
+#     PRIVATE deps/glfw/src
+# )
+target_include_directories(${PROJECT_NAME} PUBLIC deps/glfw/include)
