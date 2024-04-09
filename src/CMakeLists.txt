@@ -8,5 +8,5 @@ add_executable(${PROJECT_NAME} main.cpp)
 # just lib name not `lib`name nor name.a for linbraries
 target_link_libraries(${PROJECT_NAME} jamesMath)
 
-#add submodule external glfw
-add_subdirectory(external/glfw)
+#add submodule glfw
+add_subdirectory(deps/glfw)
