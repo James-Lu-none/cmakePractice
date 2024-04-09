@@ -1,6 +1,6 @@
 #! /bin/sh
 
-cmake -S ./src -B build
+cmake -S . -B build
 
 # if we want to modify the options for modules in configure time, we can use -D in cmake
 # for example:

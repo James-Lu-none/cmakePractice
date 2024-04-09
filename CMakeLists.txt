@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25.1)
 project(test)
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
 
 # dir that lib executable stays in, and this command
 # only works for cmake version greater than 3.13.
@@ -9,7 +9,7 @@ add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} jamesMath)
 
 #add submodule glfw
-add_subdirectory(../deps/glfw)
+add_subdirectory(deps/glfw)
 
 #add include directories
 # target_link_directories(${PROJECT_NAME}
