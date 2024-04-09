@@ -15,4 +15,13 @@ add_subdirectory(deps/glfw)
 # target_link_directories(${PROJECT_NAME}
 #     PRIVATE deps/glfw/src
 # )
-target_include_directories(${PROJECT_NAME} PUBLIC deps/glfw/include)
+target_include_directories(${PROJECT_NAME} 
+    PUBLIC deps/glfw/include
+)
+
+# target_link_directories: Add link directories to a target.
+target_link_directories(${PROJECT_NAME}
+    PRIVATE deps/glfw/src
+)
+
+target_link_libraries(${PROJECT_NAME} glfw)
