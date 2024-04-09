@@ -19,7 +19,7 @@ if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
     endif()
 endif()
 # Check all submodules
-if(NOT EXISTS "${PROJECT_SOURCE_DIR}/deps/glfw/CMakeLists.txt")
+if(NOT EXISTS "${PROJECT_SOURCE_DIR}/glfw/CMakeLists.txt")
     message(FATAL_ERROR "The glfw submodules was not downloaded!")
 endif()
 
@@ -33,14 +33,14 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 #add submodule glfw
-add_subdirectory(deps/glfw)
+add_subdirectory(glfw)
 
 #add include directories
 target_include_directories(${PROJECT_NAME} 
-    PUBLIC deps/glfw/include
+    PUBLIC glfw/include
 )
 
 # target_link_directories: Add link directories to a target.
 target_link_directories(${PROJECT_NAME}
-    PUBLIC deps/glfw/src
+    PUBLIC glfw/src
 )
